@@ -93,6 +93,11 @@ jQuery.fn.galleryOverlay = function() {
                   backgroundImage: "url(" + imgURL + ")"
                 })
                 .find( ".progress" ).hide();
+            })
+            .each( function() {
+              if ( this.complete ) {
+                $( this ).trigger( "load" );
+              }
             });
           }
       });
