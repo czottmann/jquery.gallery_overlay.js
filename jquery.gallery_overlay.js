@@ -27,11 +27,11 @@
 jQuery.fn.galleryOverlay = function() {
   var elements = $.makeArray( this );
   
-	// loop through all elements
-	return this.each( function() {
+  // loop through all elements
+  return this.each( function() {
 
-		var i = elements.indexOf( this ),
-		  api = $( this ).overlay({
+    var i = elements.indexOf( this ),
+      api = $( this ).overlay({
         target: "#gallery",
 
         onBeforeLoad: function() {
@@ -97,5 +97,5 @@ jQuery.fn.galleryOverlay = function() {
           }
       });
 
-	});
+  });
 };
