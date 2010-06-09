@@ -1,0 +1,42 @@
+## Description
+
+A simple jQuery/jQTools gallery overlay. Used on collections of thumbnails which link to larger images. Example call:
+
+    $( "#gallery_items a" ).galleryOverlay();
+
+This is basically a bare-bones replacement for [jQuery
+Tools](http://flowplayer.org/tools/) Overlay's gallery plugin which died as of
+jQuery Tools 1.2.
+
+
+## Requirements
+
+* jQuery 1.4
+* [jQuery Tools](http://flowplayer.org/tools/) 1.2+
+
+
+## Disclaimer
+
+Works for me.
+
+
+## Author
+
+Carlo Zottmann, carlo@municode.de, http://municode.de/ 
+
+
+## License
+
+               DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                       Version 2, December 2004
+
+    Copyright (C) 2004 Sam Hocevar
+     14 rue de Plaisance, 75014 Paris, France
+    Everyone is permitted to copy and distribute verbatim or modified
+    copies of this license document, and changing it is allowed as long
+    as the name is changed.
+
+               DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+      TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+     0. You just DO WHAT THE FUCK YOU WANT TO.
