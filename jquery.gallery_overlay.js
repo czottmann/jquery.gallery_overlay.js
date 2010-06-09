@@ -29,7 +29,7 @@ jQuery.fn.galleryOverlay = function() {
   
 	// loop through all elements
 	return this.each( function() {
-		// get handle to tabs API.
+
 		var i = elements.indexOf( this ),
 		  api = $( this ).overlay({
         target: "#gallery",
@@ -43,7 +43,7 @@ jQuery.fn.galleryOverlay = function() {
               "background-image": "none",
               "background-repeat": "no-repeat"
             })
-            .find( ".progress" ).attr( "src", "/images/overlay/loading.gif" ).show();
+            .find( ".progress" ).show();
           }
 
           if ( i > 0 ) {
